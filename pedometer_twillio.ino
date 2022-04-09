@@ -45,7 +45,9 @@ void loop() {
       twilio = new Twilio(account_sid, auth_token);
       delay(1000);
       delaytimer += 1000;
-      message = "Congratulations on reaching your step count!";
+      message = "Congratulations on reaching your step count!
+https://api.echo3d.co/webar?key=patient-resonance-8324&entry=aeba02e2-0207-447d-b965-956766c95927 \n
+    https://api.echo3d.co/webar?key=patient-resonance-8324&entry=c5dfc84e-6add-40ce-aa4e-75695e61f7f3";
       bool success = twilio->send_message(to_number, from_number, message, response);
 
     }
